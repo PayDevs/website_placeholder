@@ -1,0 +1,25 @@
+{
+  "name": "website_placeholder",
+  "version": "1.0.0",
+  "description": "The initial website for PayDevs",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "JEKYLL_ENV=production jekyll build",
+    "deploy": "gh-pages -d _site",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PayDevs/website_placeholder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PayDevs/website_placeholder/issues"
+  },
+  "homepage": "https://github.com/PayDevs/website_placeholder#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
