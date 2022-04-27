@@ -5,7 +5,8 @@
 # * https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-> Please Note: We are still in the progress of developing a new OSS monetization mechanism and will be in stealth mode until approx. mid 2022.
+<blockquote> {{- site.description | escape -}} </blockquote>
+
 
 <h2>Problems of OSS Maintainers</h2>
 
